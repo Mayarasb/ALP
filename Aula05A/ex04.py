@@ -3,7 +3,6 @@ from math import sqrt , pow
 a = float(input("Digite o  valor de a: "))
 b = float(input("Digite o  valor de b: "))
 c = float(input("Digite o  valor de c: "))
-x = float
 
 if a == 0:
     print("Não é uma equação do segundo grau")
