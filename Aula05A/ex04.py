@@ -1,4 +1,4 @@
-from math import sqrt , pow
+from math import sqrt, pow
 
 a = float(input("Digite o  valor de a: "))
 b = float(input("Digite o  valor de b: "))

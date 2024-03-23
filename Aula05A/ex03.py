@@ -1,13 +1,14 @@
-a = input("Digite o primeiro lado do triângulo: ")
-b = input("Digite o segundo lado do triângulo: ")
-c = input("Digite o terceiro lado do triângulo: ")
-if (a < b + c) and (b < a + c) and (c < a + b):
+l1 = int(input("Digite o primeiro lado do triângulo: "))
+l2 = int(input("Digite o segundo lado do triângulo: "))
+l3 = int(input("Digite o terceiro lado do triângulo: "))
+if (l1 + l2 > l3) and (l1 + l3 > l2) and (l2 + l3 > l1):
     print("Pode formar um triangulo")
-    if (a == b == c):
+    if l1 == l2 == l3:
         print("Forma um triangulo equilátero")
-    elif (a == b) or (a == c) or (b == c):
+    elif (l1 == l2) or (l1 == l3) or (l2 == l3):
         print("Forma um triangulo isósceles")
-    elif (a != b != c):
-        print("Forma um trangulo escaleno")
+    elif l1 != l2 != l3:
+        print("Forma um triangulo escaleno")
 else:
     print("Não pode formar um triângulo")
+
