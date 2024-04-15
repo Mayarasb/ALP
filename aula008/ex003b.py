@@ -1,4 +1,4 @@
-frase = input("Digite uma frase: ")
+frase = input("Digite uma frase: ").lower()
 a = frase.count("a")
 e = frase.count("e")
 i = frase.count("i")
